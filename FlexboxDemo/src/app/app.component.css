@@ -1,0 +1,60 @@
+#container{
+  display: flex;
+}
+.child{
+  width: 200px;
+  height: 200px;
+}
+#child1{
+  background: blue;
+}
+#child2{
+  background: violet;
+}
+#child3{
+  background: green;
+}
+
+/*############################################################### */
+#containerFlex{
+  display: flex;
+  width: 100%;
+}
+.childf{
+  height: 200px;
+  flex: 1;
+}
+#child1f{
+  background: blue;
+  flex: 2;
+}
+#child2f{
+  background: violet;
+}
+#child3f{
+  background: green;
+}
+/*############################################################### */
+#containerColumn{
+  display: flex;
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.childc{
+  height: 50px;
+  width: 50px;
+  /*flex: 1;*/
+}
+#child1c{
+  background: blue;
+}
+#child2c{
+  background: violet;
+}
+#child3c{
+  background: green;
+}
